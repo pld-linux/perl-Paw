@@ -82,6 +82,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/Paw/*.pm
 %{perl_sitelib}/Paw.pm
 %{_mandir}/man3/*
-%{_mandir}/de/man3/*
+%lang(de) %{_mandir}/de/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}/*.pl
