@@ -18,12 +18,12 @@ Summary(sv):	Paw Perlmodul
 Summary(uk):	Модуль для Perl Paw
 Summary(zh_CN):	Paw Perl дё©И
 Name:		perl-Paw
-Version:	0.52
-Release:	5
+Version:	0.54
+Release:	1
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
-# Source0-md5:	f72e97575daaed53520313cba6c1431c
+# Source0-md5:	1bdc9ec343614dc345f8c602f716f777
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Curses
