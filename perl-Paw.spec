@@ -26,7 +26,7 @@ Version:	0.54
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bdc9ec343614dc345f8c602f716f777
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
