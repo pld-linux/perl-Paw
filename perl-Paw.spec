@@ -29,7 +29,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bdc9ec343614dc345f8c602f716f777
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 5.6.1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Curses
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildArch:	noarch
