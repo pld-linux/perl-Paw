@@ -1,4 +1,4 @@
-# $Revision: 1.1 $
+# $Revision: 1.2 $
 %include	/usr/lib/rpm/macros.perl
 Summary:	Paw perl module
 Summary(pl):	Modu³ perla Paw
@@ -15,7 +15,7 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Perl Paw modules
+Perl Paw modules.
 
 %description -l pl
 Modu³ perla Paw.
