@@ -1,4 +1,4 @@
-# $Revision: 1.6 $
+# $Revision: 1.7 $
 %include	/usr/lib/rpm/macros.perl
 Summary:	Paw perl module
 Summary(pl):	Modu³ perla Paw
@@ -7,9 +7,15 @@ Version:	0.52
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
+Group(cs):	Vıvojové prostøedky/Programovací jazyky/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguajes/Perl
+Group(fr):	Development/Langues/Perl
+Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	 ftp://ftp.perl.org/pub/CPAN/authors/id/U/UG/UGANSERT/Paw-%{version}.tar.gz
+Group(pt):	Desenvolvimento/Linguagens/Perl
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
+Source0:	ftp://ftp.perl.org/pub/CPAN/authors/id/U/UG/UGANSERT/Paw-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Curses
