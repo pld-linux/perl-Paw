@@ -38,7 +38,7 @@ BuildArch:	noarch
 Perl Paw modules.
 
 %description -l pl
-Modu³ perla Paw.
+Modu³ Perla Paw.
 
 %prep
 %setup -q -n %{pnam}-%{version}
