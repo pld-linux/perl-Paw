@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Paw
 Summary:	Paw Perl module
@@ -28,6 +32,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Curses
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
 
 %description
 Perl Paw modules.
@@ -41,7 +46,10 @@ Modu³ perla Paw.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
+
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -51,6 +59,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version} \
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 cp -f Paw/examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+rm -rf $RPM_BUILD_ROOT%{perl_vendorlib}/Paw/examples
 
 cd $RPM_BUILD_ROOT%{perl_vendorlib}/Paw
 mv Paw-de.pod Paw.pod
