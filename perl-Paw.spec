@@ -19,11 +19,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Paw
 Summary(zh_CN):	Paw Perl Ä£¿é
 Name:		perl-Paw
 Version:	0.52
-Release:	4
+Release:	5
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Curses
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,7 +38,8 @@ Modu³ perla Paw.
 %setup -q -n %{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -50,7 +51,7 @@ install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version} \
 
 cp -f Paw/examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
-cd $RPM_BUILD_ROOT%{perl_sitelib}/Paw
+cd $RPM_BUILD_ROOT%{perl_vendorlib}/Paw
 mv Paw-de.pod Paw.pod
 pod2man --section=3pm Paw.pod >$RPM_BUILD_ROOT%{_mandir}/de/man3/Paw.3pm
 rm -f Paw.pod
@@ -78,9 +79,9 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes.txt
-%dir %{perl_sitelib}/Paw
-%{perl_sitelib}/Paw/*.pm
-%{perl_sitelib}/Paw.pm
+%dir %{perl_vendorlib}/Paw
+%{perl_vendorlib}/Paw/*.pm
+%{perl_vendorlib}/Paw.pm
 %{_mandir}/man3/*
 %lang(de) %{_mandir}/de/man3/*
 %dir %{_examplesdir}/%{name}-%{version}
