@@ -6,7 +6,7 @@ Version:	0.52
 Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.perl.org/pub/CPAN/authors/id/U/UG/UGANSERT/Paw-%{version}.tar.gz
+Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/U/UG/UGANSERT/Paw-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Curses
