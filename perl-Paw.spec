@@ -9,7 +9,7 @@ Summary(fr):	Module Perl Paw
 Summary(it):	Modulo di Perl Paw
 Summary(ja):	Paw Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Paw ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Paw
+Summary(nb):	Perlmodul Paw
 Summary(pl):	Modu³ Perla Paw
 Summary(pt):	Módulo de Perl Paw
 Summary(pt_BR):	Módulo Perl Paw
