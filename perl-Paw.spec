@@ -75,7 +75,7 @@ rm -f *.pod
 for i in *.pm; do
 	if grep '^=head' $i >/dev/null; then
 		n=`echo $i | sed 's/\.pm$//'`
-        	pod2man --section=3pm $i >$RPM_BUILD_ROOT%{_mandir}/man3/Paw::$n.3pm
+		pod2man --section=3pm $i >$RPM_BUILD_ROOT%{_mandir}/man3/Paw::$n.3pm
 	fi
 done
 
