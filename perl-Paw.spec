@@ -1,4 +1,3 @@
-# $Revision: 1.10 $
 %include	/usr/lib/rpm/macros.perl
 Summary:	Paw perl module
 Summary(pl):	Modu³ perla Paw
