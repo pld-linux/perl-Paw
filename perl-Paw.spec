@@ -1,4 +1,4 @@
-# $Revision: 1.2 $
+# $Revision: 1.3 $
 %include	/usr/lib/rpm/macros.perl
 Summary:	Paw perl module
 Summary(pl):	Modu³ perla Paw
@@ -12,6 +12,7 @@ Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/U/UG/UGANSERT/Paw-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	perl-Curses
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
