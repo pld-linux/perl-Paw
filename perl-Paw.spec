@@ -23,7 +23,7 @@ Release:	4
 License:	GPL v2
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-Curses
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
