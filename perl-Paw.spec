@@ -24,7 +24,7 @@ Summary(zh_CN):	Paw Perl Ä£¿é
 Name:		perl-Paw
 Version:	0.54
 Release:	1
-License:	GPL v2
+License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bdc9ec343614dc345f8c602f716f777
@@ -46,7 +46,6 @@ Modu³ perla Paw.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
@@ -56,8 +55,8 @@ rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version} \
 	$RPM_BUILD_ROOT%{_mandir}/{,de/}man3
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 cp -f Paw/examples/* $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 rm -rf $RPM_BUILD_ROOT%{perl_vendorlib}/Paw/examples
 
