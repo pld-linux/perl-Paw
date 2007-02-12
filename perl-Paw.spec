@@ -5,22 +5,22 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Paw
 Summary:	Paw Perl module
-Summary(cs):	Modul Paw pro Perl
-Summary(da):	Perlmodul Paw
-Summary(de):	Paw Perl Modul
-Summary(es):	MÛdulo de Perl Paw
-Summary(fr):	Module Perl Paw
-Summary(it):	Modulo di Perl Paw
-Summary(ja):	Paw Perl •‚•∏•Â°º•Î
-Summary(ko):	Paw ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Paw
-Summary(pl):	Modu≥ Perla Paw
-Summary(pt):	MÛdulo de Perl Paw
-Summary(pt_BR):	MÛdulo Perl Paw
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Paw
-Summary(sv):	Paw Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Paw
-Summary(zh_CN):	Paw Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Paw pro Perl
+Summary(da.UTF-8):   Perlmodul Paw
+Summary(de.UTF-8):   Paw Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Paw
+Summary(fr.UTF-8):   Module Perl Paw
+Summary(it.UTF-8):   Modulo di Perl Paw
+Summary(ja.UTF-8):   Paw Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Paw ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Paw
+Summary(pl.UTF-8):   Modu≈Ç Perla Paw
+Summary(pt.UTF-8):   M√≥dulo de Perl Paw
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Paw
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Paw
+Summary(sv.UTF-8):   Paw Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Paw
+Summary(zh_CN.UTF-8):   Paw Perl Ê®°Âùó
 Name:		perl-Paw
 Version:	0.54
 Release:	1
@@ -37,8 +37,8 @@ BuildArch:	noarch
 %description
 Perl Paw modules.
 
-%description -l pl
-Modu≥ Perla Paw.
+%description -l pl.UTF-8
+Modu≈Ç Perla Paw.
 
 %prep
 %setup -q -n %{pnam}-%{version}
