@@ -5,22 +5,22 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Paw
 Summary:	Paw Perl module
-Summary(cs.UTF-8):   Modul Paw pro Perl
-Summary(da.UTF-8):   Perlmodul Paw
-Summary(de.UTF-8):   Paw Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Paw
-Summary(fr.UTF-8):   Module Perl Paw
-Summary(it.UTF-8):   Modulo di Perl Paw
-Summary(ja.UTF-8):   Paw Perl モジュール
-Summary(ko.UTF-8):   Paw 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Paw
-Summary(pl.UTF-8):   Moduł Perla Paw
-Summary(pt.UTF-8):   Módulo de Perl Paw
-Summary(pt_BR.UTF-8):   Módulo Perl Paw
-Summary(ru.UTF-8):   Модуль для Perl Paw
-Summary(sv.UTF-8):   Paw Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Paw
-Summary(zh_CN.UTF-8):   Paw Perl 模块
+Summary(cs.UTF-8):	Modul Paw pro Perl
+Summary(da.UTF-8):	Perlmodul Paw
+Summary(de.UTF-8):	Paw Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Paw
+Summary(fr.UTF-8):	Module Perl Paw
+Summary(it.UTF-8):	Modulo di Perl Paw
+Summary(ja.UTF-8):	Paw Perl モジュール
+Summary(ko.UTF-8):	Paw 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Paw
+Summary(pl.UTF-8):	Moduł Perla Paw
+Summary(pt.UTF-8):	Módulo de Perl Paw
+Summary(pt_BR.UTF-8):	Módulo Perl Paw
+Summary(ru.UTF-8):	Модуль для Perl Paw
+Summary(sv.UTF-8):	Paw Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Paw
+Summary(zh_CN.UTF-8):	Paw Perl 模块
 Name:		perl-Paw
 Version:	0.54
 Release:	1
