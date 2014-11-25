@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pnam	Paw
+%include	/usr/lib/rpm/macros.perl
 Summary:	Paw Perl module
 Summary(cs.UTF-8):	Modul Paw pro Perl
 Summary(da.UTF-8):	Perlmodul Paw
@@ -28,11 +28,12 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
 # Source0-md5:	1bdc9ec343614dc345f8c602f716f777
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Paw/
 BuildRequires:	perl-Curses
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Perl Paw modules.
