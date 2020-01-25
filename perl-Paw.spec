@@ -3,7 +3,6 @@
 %bcond_without	tests	# do not perform "make test"
 
 %define		pnam	Paw
-%include	/usr/lib/rpm/macros.perl
 Summary:	Paw Perl module
 Summary(cs.UTF-8):	Modul Paw pro Perl
 Summary(da.UTF-8):	Perlmodul Paw
