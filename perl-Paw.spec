@@ -22,7 +22,7 @@ Summary(uk.UTF-8):	Модуль для Perl Paw
 Summary(zh_CN.UTF-8):	Paw Perl 模块
 Name:		perl-Paw
 Version:	0.54
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/U/UG/UGANSERT/%{pnam}-%{version}.tar.gz
